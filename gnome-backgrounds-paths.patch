@@ -1,0 +1,126 @@
+diff -up gnome-backgrounds-2.27.91/abstract/gnome-abstract.xml.in.in.paths gnome-backgrounds-2.27.91/abstract/gnome-abstract.xml.in.in
+--- gnome-backgrounds-2.27.91/abstract/gnome-abstract.xml.in.in.paths	2009-09-07 17:23:44.000000000 -0400
++++ gnome-backgrounds-2.27.91/abstract/gnome-abstract.xml.in.in	2009-09-07 20:19:57.545152359 -0400
+@@ -3,7 +3,7 @@
+ <wallpapers>
+ 	<wallpaper deleted="false">
+ 		<_name>Flow</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/abstract/Flow.png</filename>
++		<filename>@datadir@/backgrounds/abstract/Flow.png</filename>
+ 		<options>zoom</options>
+ 		<shade_type>solid</shade_type>
+ 		<pcolor>#415b69</pcolor>
+@@ -11,14 +11,14 @@
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Gulp</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/abstract/Gulp.png</filename>
++		<filename>@datadir@/backgrounds/abstract/Gulp.png</filename>
+ 		<shade_type>solid</shade_type>
+ 		<pcolor>#3a5990</pcolor>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Silk</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/abstract/Silk.png</filename>
++		<filename>@datadir@/backgrounds/abstract/Silk.png</filename>
+ 		<shade_type>horizontal-gradient</shade_type>
+ 		<pcolor>#FF920E</pcolor>
+ 		<scolor>#EABC12</scolor>
+@@ -26,14 +26,14 @@
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Spring</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/abstract/Spring.png</filename>
++		<filename>@datadir@/backgrounds/abstract/Spring.png</filename>
+ 		<shade_type>solid</shade_type>
+ 		<pcolor>#66BA00</pcolor>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Waves</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/abstract/Waves.png</filename>
++		<filename>@datadir@/backgrounds/abstract/Waves.png</filename>
+ 		<shade_type>solid</shade_type>
+ 		<pcolor>#1166AA</pcolor>
+ 		<options>zoom</options>
+diff -up gnome-backgrounds-2.27.91/nature/gnome-nature.xml.in.in.paths gnome-backgrounds-2.27.91/nature/gnome-nature.xml.in.in
+--- gnome-backgrounds-2.27.91/nature/gnome-nature.xml.in.in.paths	2009-09-07 17:23:44.000000000 -0400
++++ gnome-backgrounds-2.27.91/nature/gnome-nature.xml.in.in	2009-09-07 20:21:27.094141125 -0400
+@@ -5,64 +5,64 @@
+ 	<!-- Translators: This is the name of a desktop background image that shows an orange/red flower.
+ 		You might want to translate it into the equivalent words of your language  -->
+ 		<_name>Fresh Flower</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/FreshFlower.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/FreshFlower.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<!-- Translators: This is the name of a desktop background image that shows a green meadow.
+ 		  You might want to translate it into the equivalent words of your language  -->
+ 		<_name>Green Meadow</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/GreenMeadow.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/GreenMeadow.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Aqua</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/Aqua.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/Aqua.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Dune</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/Dune.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/Dune.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Storm</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/Storm.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/Storm.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Two Wings</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/TwoWings.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/TwoWings.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Lady Bird</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/LadyBird.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/LadyBird.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Blinds</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/Blinds.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/Blinds.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Rain Drops</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/RainDrops.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/RainDrops.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Yellow Flower</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/YellowFlower.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/YellowFlower.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Garden</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/Garden.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/Garden.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ 	<wallpaper deleted="false">
+ 		<_name>Wood</_name>
+-		<filename>@datadir@/pixmaps/backgrounds/gnome/nature/Wood.jpg</filename>
++		<filename>@datadir@/backgrounds/nature/Wood.jpg</filename>
+ 		<options>zoom</options>
+ 	</wallpaper>
+ </wallpapers>
